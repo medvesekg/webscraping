@@ -29,7 +29,7 @@ def get_full_quotes(subpage = ""):
                 author += author_information.string.strip() + ", "  # Build the full author string
 
 
-        full_quotes.append(quote.lstrip() + " - " + author.rstrip(", "))  # Add the quote itself and the author to the same string. Strip the any empty spaces to make it look nicer.
+        full_quotes.append(quote.lstrip() + " - " + author.rstrip(", ") + "\n")  # Add the quote itself and the author to the same string. Strip the any empty spaces to make it look nicer.
 
 
 
